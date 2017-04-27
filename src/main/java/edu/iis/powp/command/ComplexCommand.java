@@ -5,7 +5,7 @@ import java.util.List;
 import edu.iis.client.plottermagic.IPlotter;
 
 public class ComplexCommand implements PlotterCommand{
-	 
+	 ///hierarchii poleceń występuje wzorzec Composite
     private List<PlotterCommand> queue; 
 
 	public ComplexCommand(List<PlotterCommand> queue) {
